@@ -1,6 +1,6 @@
 FROM python:3.9-alpine
 
-RUN pip3 install flask
+RUN pip install flask
 
 COPY app.py /app.py
 
