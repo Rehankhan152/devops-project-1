@@ -1,6 +1,4 @@
-FROM redhat/ubi8
-
-RUN yum install python3 -y
+FROM python:3.9-alpine
 
 RUN pip3 install flask
 
